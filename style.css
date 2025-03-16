@@ -1,0 +1,16 @@
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+canvas {
+  border: 1px solid black;
+  border-radius: 10px;
+  /* width: 90%; */
+}
+.tools {
+  display: flex;
+  gap: 20px;
+}
