@@ -2,7 +2,6 @@ let canvas = document.querySelector("canvas");
 let fontWidth = document.querySelector(".fontWidth");
 let color = document.querySelector(".color");
 let clear = document.querySelector(".clear");
-let undoE = document.querySelector(".undo");
 let download = document.querySelector(".download");
 let brushes = document.querySelector(".brushes");
 
@@ -94,10 +93,6 @@ window.addEventListener("keydown", (e) => {
   if (e.ctrlKey && e.code == "KeyZ") {
     undo();
   }
-});
-
-undoE.addEventListener("click", () => {
-  undo();
 });
 
 download.addEventListener("click", () => {
